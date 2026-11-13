@@ -1,0 +1,54 @@
+﻿{
+    "started_utc":  "2026-11-12T12:31:05.2007359Z",
+    "compiler":  "C:\\msys64\\ucrt64\\bin\\g++.exe",
+    "compiler_version":  "g++.exe (Rev5, Built by MSYS2 project) 16.1.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n",
+    "flags":  [
+                  "-O2",
+                  "-std=c++17",
+                  "-Wall",
+                  "-Wextra",
+                  "-static",
+                  "-DHAVE_BUBBLE",
+                  "-DHAVE_BUCKET",
+                  "-DHAVE_COUNTING",
+                  "-DHAVE_INSERTION",
+                  "-DHAVE_MERGE",
+                  "-DHAVE_SELECTION",
+                  "-DHAVE_SHELL"
+              ],
+    "os":  "Microsoft Windows 11 Home Single Language 10.0.26200",
+    "cpu":  "13th Gen Intel(R) Core(TM) i5-13420H",
+    "ram_bytes":  16809996288,
+    "arguments":  [
+                      "100000"
+                  ],
+    "registered_sorts":  [
+                             "bubble",
+                             "bucket",
+                             "counting",
+                             "insertion",
+                             "merge",
+                             "selection",
+                             "shell"
+                         ],
+    "sha256":  {
+                   "build.ps1":  "90AF3234A22B95C94E4C617ABE7EEF6F395DCB1014D9A631CE21FF74A89B83FE",
+                   "sorts/shell_sort.cpp":  "D40787027EBB8649369175509F0477C6280F59F22E998E905AE3EF3904B6F95D",
+                   "sorts/bubble_sort.cpp":  "7EEBACA382804ABB918F8B40AA1DD2630083572268C1B916D12D2AA67DCDF20F",
+                   "searches.cpp":  "F43B459D6C48E0B200998185F7261964FB0349D2A735E168196122C0046EF09E",
+                   "benchmark.exe":  "710E51ACAF41782B246015FEA763239075E3774C1C85DBD59D2DD1D8B22B0988",
+                   "sorts/insertion_sort.cpp":  "6AE1D67C7D45A325C59896194999C83A885CE087AD6E281208936BCB085E2B44",
+                   "searches.h":  "43F67C0C6C216DF90004F6E79B5A065C9EE364BE6119233845942885100668AA",
+                   "sorts/merge_sort.cpp":  "28043E4CB4B792A6F525C5E2E0B0F06FD4D7D6CE4F29294EDE4ABA01A27C36D3",
+                   "sorts/bucket_sort.cpp":  "8B22BE9743884E4A13043541450FB75AE6BC653EC4048C8FCABAA71AF213A1C5",
+                   "metrics.h":  "C80D831B1296009F1D46EF76A3ABD2F7E73C087D9E56D73780590AB584758F8D",
+                   "data_gen.h":  "ED39BBC8023DC738208C2F6F73EE31FEAD6164A2BC7DEDF72C5EBA528FDF2ECC",
+                   "sorts.h":  "6110E35D77F90E9CC85E506D14212DFD5F55DDCCEBCA0BEE595EAE309D55799C",
+                   "sorts/selection_sort.cpp":  "F9D33BA9FBC803AF9EFFEBA6E40E5ECBFC4FC10CC027D70CBCB30930DF17EA72",
+                   "benchmark.cpp":  "A2FF9130863E0E767B478A4CCC780A535607C7B681178C4E90F43EEBC250B641",
+                   "sorts/counting_sort.cpp":  "7200F739691D67DAC5A1AB9183A6F78B430326243661480A60FE4E83859C479B"
+               },
+    "methodology":  "Instrumented time; generation/copies/validation/precheck excluded; search-result capture included. Five search batches; median/min/max batch means; matched query counts. Sort trials: 15 for N\u003c=1000, otherwise 3. No dedicated warm-up. See CSV for seed and per-row counts.",
+    "finished_utc":  "2026-11-12T12:38:31.9525090Z",
+    "exit_code":  0
+}
